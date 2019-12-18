@@ -1,3 +1,7 @@
+// https://glitch.com/edit/#!/uneven-tendency
+
+
+
 require("dotenv").config();
 
 const express = require("express"),
@@ -6,7 +10,6 @@ const express = require("express"),
   bodyParser = require("body-parser"),
   dns = require("dns"),
   cors = require("cors"),
-  URL = require("url").URL,
   app = express();
 
 /** this project needs a db !! **/
